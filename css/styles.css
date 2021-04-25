@@ -1,0 +1,65 @@
+body {
+background-color: #d8e3e7;
+font-family: 'Signika', sans-serif;
+}
+
+h1 {
+  font-family: 'Caveat Brush', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+
+/* Top Color Bar */
+
+.color-bar {
+  background-color: #126e82;
+  height: 100px;
+}
+
+/* Primary Message */
+
+.primary-message-box {
+  text-align: center;
+  padding: 5% 30% 0 30%;
+}
+
+.primary-message-text {
+  font-size: 5rem;
+}
+
+.secondary-message-box {
+  text-align: center;
+  padding: 2% 30%;
+}
+
+.secondary-message-text {
+  font-size: 1.5rem;
+}
+
+/* Buttons */
+
+.button-box {
+  padding: 0 30%;
+}
+
+.button-text {
+  background-color: #126e82;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5%;
+  text-align: center;
+}
+
+.button-text:hover {
+  background-color: #51c4d3;
+  color: #000;
+}
