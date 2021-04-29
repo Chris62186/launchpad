@@ -24,6 +24,15 @@ a:hover {
   height: 100px;
 }
 
+/* Rocket Image */
+
+.rocket-img {
+  display: inline-block;
+  position: absolute;
+  margin: 6% 0 0 5%;
+  height: 400px;
+  width: 250px;
+}
 /* Primary Message */
 
 .primary-message-box {
@@ -48,6 +57,11 @@ a:hover {
 
 .button-box {
   padding: 0 30%;
+}
+
+.btnt-row {
+  padding: 1% 0;
+  margin: 5px 0;
 }
 
 .button-text {
