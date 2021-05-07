@@ -21,8 +21,11 @@ setInterval(function() {
   var minutesLeft = 59 - now.getMinutes();
   var secondsLeft = 59 - now.getSeconds();
 
-  if(now.getHours() >= 17) {
-    document.querySelector(".countdown-timer").innerHTML = "Time until 5PM: 0 - Time to Quit";
+
+  if (now.getHours() < 8) {
+    document.querySelector(".countdown-timer").innerHTML = "Not 8am yet - No work!";
+  } else if (now.getHours() >= 17) {
+    document.querySelector(".countdown-timer").innerHTML = "You made it to 5PM! Be done.";
   } else {
     document.querySelector(".countdown-timer").innerHTML = "Time until 5PM: " + hoursLeft + ":" + minutesLeft + ":" + secondsLeft;
   }
