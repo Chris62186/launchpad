@@ -125,5 +125,19 @@ body {
 
   .header-bar-text {
     text-align: center;
+    font-size: 5rem;
   }
+
+  .countdown-timer {
+    font-size: 3.5rem;
+  }
+
+  .resource-button {
+    text-align: center;
+  }
+
+  .button-text {
+    font-size: 4rem;
+  }
+
 }
