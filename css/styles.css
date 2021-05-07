@@ -59,7 +59,6 @@ body {
 
 .main-window {
   flex: 70%;
-  height: 750px;
 }
 
 .side-bar {
@@ -97,6 +96,7 @@ body {
   height: 107px;
   shadow: none;
   border: none;
+  text-align: left;
 }
 
 .resource-button:hover {
@@ -107,13 +107,14 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 1.30rem;
+  padding-left: 1rem;
 }
 
 
 
 /* Media Changes */
 
-@media screen and (max-width: 800px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .row {
     flex-direction: column;
   }
