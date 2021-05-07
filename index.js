@@ -16,6 +16,8 @@ document.querySelector(".btn-color-randomizer").addEventListener("click", functi
   buttonColorRandomizer();
 });
 
+
+// Fuctions
 function buttonColorRandomizer() {
   var resourceButtons = document.querySelectorAll(".resource-button");
 
