@@ -1,3 +1,5 @@
+// Greeting Update
+
 var d = new Date();
 console.log(d);
 var time = d.getHours();
@@ -11,13 +13,34 @@ if (time < 12) {
   document.querySelector(".header-bar-text").innerHTML = "Time to shut it down, Christopher!"
 }
 
+// Countdown Timer
+// Runs every second
+setInterval(function() {
+  var now = new Date();
+  var hoursLeft = 16 - now.getHours();
+  var minutesLeft = 59 - now.getMinutes();
+  var secondsLeft = 59 - now.getSeconds();
+
+  if(now.getHours() >= 17) {
+    document.querySelector(".countdown-timer").innerHTML = "Time until 5PM: 0 - Time to Quit";
+  } else {
+    document.querySelector(".countdown-timer").innerHTML = "Time until 5PM: " + hoursLeft + ":" + minutesLeft + ":" + secondsLeft;
+  }
+}, 1000);
+
+
+// Button Color Randomizer
 
 document.querySelector(".btn-color-randomizer").addEventListener("click", function() {
   buttonColorRandomizer();
 });
 
+buttonColorRandomizer();
 
-// Fuctions
+
+
+
+// Functions
 function buttonColorRandomizer() {
   var resourceButtons = document.querySelectorAll(".resource-button");
 
