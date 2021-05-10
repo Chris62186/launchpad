@@ -100,9 +100,8 @@ body {
 }
 
 .resource-button:hover {
-  opacity: 0.7;
   box-shadow: 5px 5px 3px grey;
-  height: 130px;
+  margin-left: -15px;
 }
 
 .button-text {
