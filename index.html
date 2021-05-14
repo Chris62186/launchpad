@@ -2,39 +2,77 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>LaunchPad</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Favicon  -->
-    <link rel="icon" href="favicon.ico">
+    <title>Games by Christopher</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Nerko+One&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <section class="header-bar">
-      <p class="header-bar-text">Good morning Christopher!</p>
-      <p class="countdown-timer">Time until 5:00pm: XX:XX:XX</p>
-      <button class="btn-color-randomizer" type="button" name="button"><em>Color Randomizer</em></button>
+    <section class="title">
+      <h1 class="main-header">Welcome to Games by Christopher</h1>
     </section>
 
-    <hr class="thick-black-break-bar">
+    <section class="overview">
+      <p class="overview-content">
+        Each of these games has been developed personally by Christopher as part of his coding journey.
+        <br>
+        <br>
+        Please feel free to play as much as you want. And if you find any bugs, please report them to
+        Christopher as soon as you can.
+      </p>
+    </section>
 
-    <section class="main-content">
+    <section class="games-container">
       <div class="row">
-        <div class="main-window">
-          <img class="main-img" src="images/mountains.png" alt="mountains-img">
+        <div class="game-card">
+          <img class="game-card-img" src="images/simon.png" alt="simon-says-img">
+          <p class="game-card-title">Simon Says</p>
+          <p class="game-card-description">Can you keep up with Simon? Follow along with the computer patterns until you can't!</p>
+          <a href="gamescollection/simon/index.html"><p class="game-card-play-button"><span class="play-now-text">Play Now</span></p></a>
         </div>
-        <div class="side-bar">
-          <!-- <p class="side-bar-text">Today is going to be a beautiful day! <br /> <br>What would you like to start with today?</p> -->
-          <div class="resource-button-holder">
-            <a href="https://trello.com/medccommunitydevelopment/home" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">Trello Homepage</span></button></a>
-            <a href="https://www.miplace.org/rrc" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">RRC Homepage</span></button></a>
-            <a href="https://www.miplace.org/rrclibrary" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">RRC Library</span></button></a>
-            <a href="https://medc.app.box.com/folder/0" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">Box</span></button></a>
-            <a href="https://medc.my.salesforce.com/" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">Salesforce</span></button></a>
-            <a href="https://www.miplace.org/util/login.aspx" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">MiPlace Backend</span></button></a>
-            <a href="https://miplace.csod.com/client/miplace/default.aspx" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">MiPlace eLearning</span></button></a>
-          </div>
+
+        <div class="game-card">
+          <img class="game-card-img" src="images/dice.png" alt="simon-says-img">
+          <p class="game-card-title">Dice Game</p>
+          <p class="game-card-description">Need to settle a debate? This is a quick, fair and easy way to do so. Just refresh the page for a new battle!</p>
+          <a href="gamescollection/dice/dicee.html"><p class="game-card-play-button"><span class="play-now-text">Play Now</span></p></a>
+        </div>
+
+        <div class="game-card">
+          <img class="game-card-img" src="images/drum.png" alt="simon-says-img">
+          <p class="game-card-title">Drum Kit</p>
+          <p class="game-card-description">Who doesn't love loud noises and drums? Jam out with just your keyboard in this virtual drum set!</p>
+          <a href="gamescollection/drum/index.html"><p class="game-card-play-button"><span class="play-now-text">Play Now</span></p></a>
         </div>
       </div>
+
+      <div class="row">
+        <div class="game-card">
+          <img class="game-card-img" src="images/simon.png" alt="simon-says-img">
+          <p class="game-card-title">Coming Soon</p>
+          <p class="game-card-description"></p>
+        </div>
+
+        <div class="game-card">
+          <img class="game-card-img" src="images/simon.png" alt="simon-says-img">
+          <p class="game-card-title">Coming Soon</p>
+          <p class="game-card-description"></p>
+        </div>
+
+        <div class="game-card">
+          <img class="game-card-img" src="images/simon.png" alt="simon-says-img">
+          <p class="game-card-title">Coming Soon</p>
+          <p class="game-card-description"></p>
+        </div>
+      </div>
+
     </section>
-    <script src="index.js" ></script>
+
+
+
   </body>
 </html>
