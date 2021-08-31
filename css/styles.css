@@ -64,7 +64,7 @@ body {
 .side-bar {
   flex: 30%;
   flex-direction: column;
-  height: 750px;
+  height: 855px;
   align-items: stretch;
 }
 
