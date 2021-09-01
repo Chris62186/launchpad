@@ -2,40 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>LaunchPad</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Favicon  -->
-    <link rel="icon" href="favicon.ico">
+    <title>Launchpad 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lato&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <section class="header-bar">
-      <p class="header-bar-text">Good morning Christopher!</p>
-      <p class="countdown-timer">Time until 5:00pm: XX:XX:XX</p>
-      <button class="btn-color-randomizer" type="button" name="button"><em>Color Randomizer</em></button>
-    </section>
-
-    <hr class="thick-black-break-bar">
-
-    <section class="main-content">
-      <div class="row">
-        <div class="main-window">
-          <img class="main-img" src="images/mountains.png" alt="mountains-img">
-        </div>
-        <div class="side-bar">
-          <!-- <p class="side-bar-text">Today is going to be a beautiful day! <br /> <br>What would you like to start with today?</p> -->
-          <div class="resource-button-holder">
-            <a href="https://trello.com/medccommunitydevelopment/home" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">Trello Homepage</span></button></a>
-            <a href="https://www.miplace.org/rrc" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">RRC Homepage</span></button></a>
-            <a href="https://www.miplace.org/rrclibrary" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">RRC Library</span></button></a>
-            <a href="https://medc.app.box.com/folder/0" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">Box</span></button></a>
-            <a href="https://medc.my.salesforce.com/" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">Salesforce</span></button></a>
-            <a href="https://www.miplace.org/util/login.aspx" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">MiPlace Backend</span></button></a>
-            <a href="https://miplace.csod.com/client/miplace/default.aspx" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">MiPlace eLearning</span></button></a>
-            <a href="https://app.slack.com/client/T010CFQ500P/C02C7265ZC3/thread/C02C7265ZC3-1630427071.014500" target="_blank"><button class="resource-button" type="button" name="button"><span class="button-text">EPP Slack</span></button></a>
-          </div>
-        </div>
+    <div class="bg-image">
+      <div class="top-bar">
+        <p class="countdown-text">Remaining worktime: <span class="countdown-timer">00h 00m 00s</span></p>
+        <button class="btn-color-randomizer" type="button" name="button">Randomize Colors</button>
       </div>
-    </section>
-    <script src="index.js" ></script>
+      <div class="message-box">
+        <h1 class="welcome-message">Good morning Christopher!</h1>
+      </div>
+
+      <div class="resource-box">
+        <a href="https://www.miplace.org/rrc" target="_blank"><button class="resource-button" type="button" name="button">RRC Homepage</button></a>
+        <a href="https://trello.com/medccommunitydevelopment/home" target="_blank"><button class="resource-button" type="button" name="button">Trello Home</button></a>
+        <a href="https://www.miplace.org/rrclibrary" target="_blank"><button class="resource-button" type="button" name="button">RRC Library</button></a>
+        <a href="https://medc.app.box.com/folder/0c" target="_blank"><button class="resource-button" type="button" name="button">Box Home</button></a>
+        <a href="https://medc.my.salesforce.com/" target="_blank"><button class="resource-button" type="button" name="button">Salesforce</button></a>
+        <a href="https://www.miplace.org/util/login.aspx" target="_blank"><button class="resource-button" type="button" name="button">MiPlace Backend</button></a>
+        <a href="https://miplace.csod.com/client/miplace/default.aspx" target="_blank"><button class="resource-button" type="button" name="button">MiPlace eLearning</button></a>
+        <a href="https://app.slack.com/client/T010CFQ500P/C02C7265ZC3/thread/C02C7265ZC3-1630427071.014500" target="_blank"><button class="resource-button" type="button" name="button">EPP Slack</button></a>
+    </div>
+  <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
