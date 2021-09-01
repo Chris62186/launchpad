@@ -85,3 +85,14 @@ a {
   background-color: #fff;
   color: #000;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .resource-box {
+    flex-direction: column;
+  }
+  
+  .resource-button {
+    width:90vw;
+  }
+}
