@@ -89,10 +89,13 @@ a {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   .resource-box {
+    top: 40vh;
     flex-direction: column;
+    align-content: stretch;
+
   }
-  
+
   .resource-button {
-    width:90vw;
+    width: 90vw;
   }
 }
